@@ -4,4 +4,4 @@ build:
 release:
   image: web
 run:
-  web: gunicorn blogapi_project.wsgi
+  web: gunicorn bookshop.wsgi
